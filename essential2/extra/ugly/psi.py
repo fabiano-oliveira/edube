@@ -1,0 +1,3 @@
+
+def funP():
+    return "Psy"

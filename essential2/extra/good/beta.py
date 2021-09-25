@@ -1,0 +1,3 @@
+
+def betaB():
+    return "Beta"

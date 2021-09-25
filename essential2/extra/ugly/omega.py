@@ -1,0 +1,4 @@
+
+def funO():
+    return "Omega"
+    

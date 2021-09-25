@@ -1,0 +1,3 @@
+
+def funA():
+    return "Alpha"

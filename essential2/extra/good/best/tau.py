@@ -1,0 +1,3 @@
+
+def funT():
+    return "Tau"

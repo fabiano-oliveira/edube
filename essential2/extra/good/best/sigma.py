@@ -1,0 +1,3 @@
+
+def funS():
+    return "Sigma"
