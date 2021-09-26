@@ -8,7 +8,7 @@ Finalizado o curso com o desenvolvimento do jogo [Tic-Tac-Toe](./essential1/tict
 
 Para executar o jogo:
 ```
-python3 tictactoe.py
+python3 ./essential1/tictactoe.py
 ```
 
 ## Curso _Python Essentials 2_
