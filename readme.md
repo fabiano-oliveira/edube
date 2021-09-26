@@ -12,4 +12,7 @@ python3 tictactoe.py
 
 ## Curso _Python Essentials 2_
 
+Laboratórios
+    - lab1
+    - lab2
 
