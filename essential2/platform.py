@@ -15,8 +15,9 @@ print(dir(os), sep=", ")
 
 print_head("outros")
 print(platform.platform())
-print(platform.machine())
-print(platform.processor())
-print(platform.version())
+print("machine", platform.machine())
+print("processor", platform.processor())
+print("version", platform.version())
+print("system", platform.system())
 for p in sys.path:
     print(p)
