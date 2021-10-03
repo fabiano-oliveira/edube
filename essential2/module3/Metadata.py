@@ -14,21 +14,23 @@ print(type(n))
 print(n.__name__)
 
 
-class Subclass:
+class SuperClass:
     pass
 
-class SuperClass(Subclass):
+class SubClass(SuperClass):
     def __init__(self):
         self.x = 0    
     
 
-ss = SuperClass()
+ss = SubClass()
+ss2 = SubClass
 
-print("Superclass is instance of SubClass:", isinstance(ss, Subclass))
-print("Superclass is subclass of Subclass:", issubclass(SuperClass, Subclass))
-print("Superclass is subclass of Metadata:", issubclass(SuperClass, Metadata))
-print(ss)
+print("Superclass is instance of SuperClass:", isinstance(ss, SuperClass))
+print("Subclass is subclass of Superclass:", issubclass(SubClass, SuperClass))
+print("Subclass is subclass of Metadata:", issubclass(SubClass, Metadata))
+print("ss = ", ss)
+print("ss2 = ", ss2)
 print("x =", ss.__getattribute__("x"))
 print(dir(ss))
 #print(dir(SuperClass))
-print(SuperClass.__dict__)
+print(SubClass.__dict__)
